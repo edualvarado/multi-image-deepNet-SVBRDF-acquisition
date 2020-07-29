@@ -1,9 +1,11 @@
 import os
-import tensorflow as tf
+#import tensorflow as tf
 import numpy as np
 import math
 import helpers
 
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 minEps = 0.001 #allows near 90degrees angles
 maxEps = 0.02 #removes all angles below 8.13 degrees. see helpers.tf_generate_normalized_random_direction for the equation to calculate it.

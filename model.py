@@ -1,6 +1,10 @@
-import tensorflow as tf
+#import tensorflow as tf
 import tfHelpers
 import helpers
+
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
 #Define the the model class, this contains our network definition. Quite similar to the first project.
 class Model:
     generatorOutputs = None

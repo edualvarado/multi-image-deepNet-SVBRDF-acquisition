@@ -1,5 +1,8 @@
-import tensorflow as tf
+#import tensorflow as tf
 import numpy as np
+
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 #Convolution implementation
 def conv(batch_input, out_channels, stride, filterSize=4, initScale = 0.02, useXavier=False, paddingSize = 1, useBias=False):

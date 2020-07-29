@@ -1,7 +1,9 @@
-import tensorflow as tf
+#import tensorflow as tf
 import renderer
 import helpers
 
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 def DX(x):
     return x[:,:,1:,:] - x[:,:,:-1,:]    # so this just subtracts the image from a single-pixel shifted version of itself (while cropping out two pixels because we don't know what's outside the image)

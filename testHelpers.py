@@ -2,9 +2,12 @@ import os
 import shutil
 import dataReader
 import helpers
-import tensorflow as tf
+#import tensorflow as tf
 #This file is here to help render datasets that are saved on the disk. It allows to create a random dataset once and for all, before running all trained network on it to evaluate them for example.
 #This is mostly a helper for generating a test set and doesn't add to the network itslf.
+
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 def concat_tensor_display(tensor, axisToConcat, axisToSplit = 3):
     tensors_list = tf.unstack(tensor, axis=axisToSplit)#4 * [batch, 256,256,3] Might need to use split
