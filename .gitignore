@@ -1,0 +1,12 @@
+# PyCharm
+*.idea
+/__pycache__
+
+# Folders
+/testImagesExamples-2
+/checkpointTrained
+/materialsData_multi_image
+
+
+
+
