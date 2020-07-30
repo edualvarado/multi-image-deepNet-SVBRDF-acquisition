@@ -2,7 +2,7 @@
 *.idea
 /__pycache__
 
-# Folders
+# Directories
 /testImagesExamples-2
 /checkpointTrained
 /materialsData_multi_image
@@ -16,4 +16,7 @@
 /outputNew2-noflash
 /inputNew2-moreLight
 /outputNew2-moreLight
+
+/inputNew3
+/outputNew3
 
