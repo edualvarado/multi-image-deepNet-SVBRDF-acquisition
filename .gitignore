@@ -6,9 +6,14 @@
 /testImagesExamples-2
 /checkpointTrained
 /materialsData_multi_image
+
 /inputNew
 /outputNew
-/inputNew2
-/outputNew2
 
+/inputNew2-flash
+/outputNew2-flash
+/inputNew2-noflash
+/outputNew2-noflash
+/inputNew2-moreLight
+/outputNew2-moreLight
 
