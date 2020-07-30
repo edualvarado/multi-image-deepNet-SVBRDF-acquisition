@@ -2,13 +2,12 @@
 *.idea
 /__pycache__
 
+# Photoshop
+*.psd
+
 # Directories
-/testImagesExamples-2
 /checkpointTrained
 /materialsData_multi_image
-
-/inputNew
-/outputNew
 
 /inputNew2-flash
 /outputNew2-flash
