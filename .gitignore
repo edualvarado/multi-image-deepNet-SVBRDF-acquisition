@@ -6,16 +6,5 @@
 *.psd
 
 # Directories
-/checkpointTrained
+/Model
 /materialsData_multi_image
-
-/inputNew2-flash
-/outputNew2-flash
-/inputNew2-noflash
-/outputNew2-noflash
-/inputNew2-moreLight
-/outputNew2-moreLight
-
-/inputNew3
-/outputNew3
-
