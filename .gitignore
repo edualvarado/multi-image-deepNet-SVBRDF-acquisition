@@ -8,3 +8,7 @@
 # Directories
 /Model
 /materialsData_multi_image
+/__tb
+/PythonTools
+/InputModels
+/OutputModels
